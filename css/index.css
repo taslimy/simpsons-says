@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.mainNavigation {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.mainNavigation .navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.mainNavigation .navContainer .logo {
+  width: 25%;
+}
+.mainNavigation .navContainer .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  width: 40%;
+}
+.mainNavigation .navContainer .nav .signupBTN {
+  background: #6fd0fe;
+  color: #ffffff !important;
+  border-radius: 4px;
+  padding: 10px 40px;
+}
+.mainNavigation .navContainer .nav .signupBTN:hover {
+  background: #fed817;
+  color: #445048 !important;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+.mainNavigation .navContainer .nav .navItem {
+  color: #445048;
+  text-decoration: none;
+}
+.mainNavigation .navContainer .nav .navItem:hover {
+  font-weight: 600;
+  border-bottom: 2px solid #fed817;
+  padding-bottom: 5px;
+  transition: 0.1s ease-out;
+}
+.footer {
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+.home {
+  max-width: 860px;
+  width: 100%;
+  margin-top: 15rem;
+}
+.home .intro-section {
+  padding-bottom: 15px;
+  border-bottom: 2px dashed;
+}
+.home .content-section {
+  margin: 30px 0;
+  display: flex;
+}
+.home .text-content {
+  width: 100%;
+}
+.home .text-content h1 {
+  font-weight: 900;
+  color: #445048;
+}
+.home .text-content #phrase {
+  color: #fed817;
+  font-weight: 500;
+}
+.home .text-content p {
+  color: #445048;
+  font-weight: 500;
+}
+.home .text-content #andriodDownload {
+  font-family: 'Raleway', sans-serif;
+  background: #fed817;
+  color: #ffffff !important;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  align-items: center;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 40px;
+  border-bottom: none !important;
+}
+.home .text-content #andriodDownload:hover {
+  color: #445048 !important;
+  background: #6fd0fe;
+  cursor: pointer;
+}
+.home .text-content #andriodDownload i {
+  color: #445048 !important;
+  font-size: 3rem;
+}
+.home .img-content {
+  padding-left: 1%;
+}
+.home .img-content img {
+  border-radius: 10px;
+}
+.home .inverse-content {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed;
+}
+.home .inverse-content .text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
+.home .inverse-content .img-content {
+  padding-right: 1%;
+  padding-left: 0;
+}
+.content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.content-pick {
+  padding-top: 30px;
+  border-top: 2px dashed;
+  display: flex;
+  justify-content: space-between;
+}
+.content-pick .destination {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.button .content-pick .destination .btn:hover {
+  background: #445048;
+  cursor: pointer;
+}

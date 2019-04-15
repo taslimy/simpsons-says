@@ -1,0 +1,183 @@
+.home {
+  max-width: 860px;
+  width: 100%;
+  margin-top: 15rem;
+
+  // @media @mobile {
+  //   width: 90%;
+  // }
+
+  // @media @tablet {
+  //   width: 90%;
+  // }
+
+  .intro-section {
+    padding-bottom: 15px;
+    border-bottom: 2px dashed;
+
+    // img {
+    //   margin-bottom: 20px;
+    // }
+  }
+
+  .content-section {
+    margin: 30px 0;
+    display: flex;
+
+    // @media @tablet {
+    //   flex-wrap: nowrap;
+    //   width: 100%;
+    // }
+    // @media @mobile {
+    //   flex-wrap: wrap;
+    //   width: 100%;
+    // }
+  }
+
+  .text-content {
+    width: 100%;
+
+    h1 {
+      font-weight: 900;
+      color: @black;
+    }
+
+    #phrase {
+      color: @yellow;
+      font-weight: 500;
+    }
+
+    p {
+      color: @black;
+      font-weight: 500;
+    }
+
+    #andriodDownload {
+      font-family: @font;
+      background: @yellow;
+      color: @white !important;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      align-items: center;
+      font-weight: 500;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 40px;
+      border-bottom: none !important;
+
+      &:hover {
+        color: @black !important;
+        background: @button-bg;
+        cursor: pointer;
+      }
+
+      i {
+        color: @black !important;
+        font-size: 3rem;
+      }
+    }
+
+    // @media @mobile {
+    //   width: 100%;
+    // }
+  }
+
+  .img-content {
+    padding-left: 1%;
+
+    // @media @mobile {
+    //   padding-left: 0%;
+    //   width: 100%;
+    // }
+
+    img {
+      border-radius: 10px;
+
+      // @media @mobile {
+      //   width: 100%;
+      // }
+
+      // @media @tablet {
+      //   align-items: baseline;
+      //   width: 100%;
+      // }
+    }
+  }
+
+  .inverse-content {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed;
+
+    .text-content {
+      padding-left: 1%;
+      padding-right: 0;
+    }
+
+    .img-content {
+      padding-right: 1%;
+      padding-left: 0;
+
+      // @media @mobile {
+      //   order: 1;
+      // }
+
+      // img {
+      //   @media @mobile {
+      //     width: 100%;
+      //   }
+    }
+  }
+}
+
+.content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+
+  // img {
+  //   border-radius: 10px;
+  // }
+
+  // @media @mobile {
+  //   width: 100%;
+  // }
+}
+
+.content-pick {
+  padding-top: 30px;
+  border-top: 2px dashed;
+  display: flex;
+  justify-content: space-between;
+
+  .destination {
+    width: 30%;
+    margin-bottom: 30px;
+
+    .btn {
+      .button &:hover {
+        background: @black;
+        cursor: pointer;
+      }
+
+      // @media @tablet {
+      //   font-size: 1.5rem;
+      // }
+
+      // @media @mobile {
+      //   font-size: 2rem;
+      //   color: @white;
+      // }
+    }
+
+    //   @media @mobile {
+    //     width: 80%;
+    //     margin: 0 auto;
+    //   }
+    // }
+
+    // @media @mobile {
+    //   flex-direction: column;
+    //   margin: 0 auto;
+    //   margin-bottom: 34px;
+    // }
+  }
+} // end homepage
