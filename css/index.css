@@ -180,7 +180,7 @@ img {
   width: 100%;
 }
 .mainNavigation .navContainer .logo {
-  width: 25%;
+  width: 35%;
 }
 .mainNavigation .navContainer .nav {
   display: flex;
@@ -213,32 +213,66 @@ img {
   transition: 0.1s ease-out;
 }
 .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 100%;
+  height: auto;
+  background: #111;
 }
 .footer p {
+  font-weight: 600;
   text-align: center;
-  font-size: 1.6rem;
+  color: #ffffff;
+  font-size: 1.3rem;
   padding: 20px;
 }
-.home {
-  max-width: 860px;
+.footer a {
+  color: #fed817;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.topBar {
   width: 100%;
-  margin-top: 15rem;
+  height: 5px;
+  background: #445048;
+}
+.home {
+  width: 100%;
+}
+.home .simpsons {
+  width: 50%;
+  position: absolute;
+  opacity: 0.1;
+  left: 800px;
+  top: 165px;
+  z-index: -999;
+  user-select: none;
 }
 .home .intro-section {
   padding-bottom: 15px;
   border-bottom: 2px dashed;
 }
 .home .content-section {
-  margin: 30px 0;
+  margin: 70px 0px 70px 0px;
   display: flex;
 }
 .home .text-content {
   width: 100%;
 }
 .home .text-content h1 {
+  font-size: 5.5rem;
   font-weight: 900;
   color: #445048;
+  margin-bottom: 10px;
+}
+.home .text-content h4 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #445048;
+  margin: 10px 0px 10px 0px;
 }
 .home .text-content #phrase {
   color: #fed817;
@@ -247,6 +281,9 @@ img {
 .home .text-content p {
   color: #445048;
   font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1.3px;
 }
 .home .text-content #andriodDownload {
   font-family: 'Raleway', sans-serif;
@@ -269,6 +306,23 @@ img {
 .home .text-content #andriodDownload i {
   color: #445048 !important;
   font-size: 3rem;
+}
+.home .feature-section h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #445048;
+  margin-bottom: 10px;
+}
+.home .feature-section .feature-content {
+  display: flex;
+  width: 100%;
+}
+.home .feature-section .feature-content p {
+  color: #445048;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1.3px;
 }
 .home .img-content {
   padding-left: 1%;

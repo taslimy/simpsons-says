@@ -12,12 +12,25 @@
     />
     <link href="css/index.css" rel="stylesheet" />
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <!-- Custom JS -->
     <script src="/index.js"></script>
     <!-- Allows Media Queries To Work -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
+      integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI="
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -25,9 +38,10 @@
   </head>
 
   <body>
+    <div class="topBar"></div>
     <header class="mainNavigation">
       <div class="container navContainer">
-        <img class="logo" src="/img/logo-2.png" alt="simpson-logo">
+        <img class="logo" src="/img/logo-2.png" alt="simpson-logo" />
         <nav class="nav">
           <a class="navItem" href="#">About</a>
           <a class="navItem" href="#">Sign In</a>
@@ -36,21 +50,69 @@
       </div>
     </header>
     <div class="container home">
+      <img class="simpsons" src="/img/bg-image.png" alt="simpson says" /> 
       <section class="content-section">
         <div class="text-content">
-          <h1>The Simpsons Says. <span id="phrase">D'oh!</span></h1>
+          <h1>Simpsons Says. <span id="phrase">D'oh!</span></h1>
           <p>
-            Simpsons Says is an Interactive APP that can say the famous catchphrases from the popular TV Show The Simpsons. You can find the app on Google Play Store.
+            Simpsons Says is an Interactive APP that can say the famous
+            catchphrases from the popular TV Show The Simpsons. You can find the
+            app on Google Play Store. Download it now!
           </p>
-          <button id="andriodDownload"><i class="fab fa-google-play"></i></button>
+          <button id="andriodDownload">
+            <i class="fab fa-google-play"></i>
+          </button>
         </div>
-        
+      </section>
+      <section class="content-section">
+        <div class="text-content">
+          <h4>Features</h4>
+          <p>
+            <i class="fas fa-chevron-right"></i> Consectetur adipiscing elit.
+          </p>
+          <p>
+            <i class="fas fa-chevron-right"></i> Mauris fringilla nec neque sed
+            convallis.
+          </p>
+          <p>
+            <i class="fas fa-chevron-right"></i> Praesent aliquet eget felis sit
+            amet consequat.
+          </p>
+          <p>
+            <i class="fas fa-chevron-right"></i> Praesent aliquet eget felis sit
+            amet consequat.
+          </p>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="text-content">
+          <h4>Future Implementations</h4>
+          <p>
+            <i class="fas fa-chevron-right"></i> Consectetur adipiscing elit.
+          </p>
+          <p>
+            <i class="fas fa-chevron-right"></i> Mauris fringilla nec neque sed
+            convallis.
+          </p>
+          <p>
+            <i class="fas fa-chevron-right"></i> Praesent aliquet eget felis sit
+            amet consequat.
+          </p>
+          <p>
+            <i class="fas fa-chevron-right"></i> Consectetur adipiscing elit.
+          </p>
+        </div>
       </section>
     </div>
     <!-- container -->
 
-    <footer class="footer">
-      <p>&copy; The Simpsons Says</p>
+    <footer class="footer navContainer">
+      <p>
+        Created by
+        <a href="https://lambdaschool.com/" target="_blank">Lambda School</a>
+        Students.
+      </p>
+      <p>&copy; 2019 Simpsons Says</p>
     </footer>
   </body>
 </html>

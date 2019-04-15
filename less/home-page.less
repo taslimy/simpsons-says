@@ -1,7 +1,20 @@
-.home {
-  max-width: 860px;
+.topBar {
   width: 100%;
-  margin-top: 15rem;
+  height: 5px;
+  background: @black;
+}
+.home {
+  width: 100%;
+
+  .simpsons {
+    width: 50%;
+    position: absolute;
+    opacity: 0.1;
+    left: 800px;
+    top: 165px;
+    z-index: -999;
+    user-select: none;
+  }
 
   // @media @mobile {
   //   width: 90%;
@@ -21,7 +34,7 @@
   }
 
   .content-section {
-    margin: 30px 0;
+    margin: 70px 0px 70px 0px;
     display: flex;
 
     // @media @tablet {
@@ -38,8 +51,17 @@
     width: 100%;
 
     h1 {
+      font-size: 5.5rem;
       font-weight: 900;
       color: @black;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: @black;
+      margin: 10px 0px 10px 0px;
     }
 
     #phrase {
@@ -50,6 +72,9 @@
     p {
       color: @black;
       font-weight: 500;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      letter-spacing: 1.3px;
     }
 
     #andriodDownload {
@@ -80,6 +105,27 @@
     // @media @mobile {
     //   width: 100%;
     // }
+  }
+
+  .feature-section {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: @black;
+      margin-bottom: 10px;
+    }
+    .feature-content {
+      display: flex;
+      width: 100%;
+
+      p {
+        color: @black;
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        letter-spacing: 1.3px;
+      }
+    }
   }
 
   .img-content {
