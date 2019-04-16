@@ -9,16 +9,14 @@ let phrase = [
   "Aaargh!",
   "Stupid Flanders.",
   "BART!",
+  "Eat my shorts"
 ];
 
 // looping through it
 let count = 0;
 function changePhrase() {
   $("#phrase").text(phrase[count]);
-  count < 7 ? count++ : (count = 0);
+  count < 8 ? count++ : (count = 0);
 }
 setInterval(changePhrase, 800);
-
-
-
 
