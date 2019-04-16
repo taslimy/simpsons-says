@@ -1,5 +1,4 @@
 // jQuery Phrase Changes.
-
 // List of strings.
 let phrase = [
   "D'oh!",
