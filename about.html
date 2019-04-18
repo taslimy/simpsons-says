@@ -5,17 +5,7 @@
     <meta charset="utf-8" />
 
     <title>Simpsons Says - About</title>
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto"
-      rel="stylesheet"
-    />
     <link href="css/index.css" rel="stylesheet" />
-    <!-- Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900"
-      rel="stylesheet"
-    />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -23,35 +13,34 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <!-- Custom JS -->
-    <script src="/index.js"></script>
     <!-- Allows Media Queries To Work -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
-      integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI="
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
   </head>
 
   <body>
     <div class="topBar"></div>
+    <!-- Navigation -->
     <header class="mainNavigation">
       <div class="container navContainer">
         <img class="logo" src="/img/logo-2.png" alt="simpson-logo" />
         <nav class="nav">
           <a class="navItem" href="index.html">Home</a>
           <a class="navItem active" href="about.html">About</a>
-          <a class="navItem" href="signin.html">Sign In</a>
-          <a class="navItem signupBTN" href="signup.html">Sign up</a>
+          <a class="navItem" href="https://simpsonssays.netlify.com/login"
+            >Sign In</a
+          >
+          <a
+            class="navItem signupBTN"
+            href="https://simpsonssays.netlify.com/register"
+            >Sign up</a
+          >
         </nav>
       </div>
     </header>
+    <!-- End Navigation -->
+    <!-- Start Containter -->
     <div class="container home">
+      <!-- About Us Text -->
       <section class="content-section">
         <div class="text-content">
           <h1>About Us</h1>
@@ -62,12 +51,27 @@
           </p>
         </div>
       </section>
+      <!-- End About Us Text -->
+      <!-- Team Role Tabs-->
+      <div class="tabs home">
+        <div class="topics">
+          <div data-tab="all" class="tab active-tab">All Members</div>
+          <div data-tab="lead" class="tab">Team Lead</div>
+          <div data-tab="frontend" class="tab">Front-end Dev.</div>
+          <div data-tab="backend" class="tab">Back-end Dev.</div>
+          <div data-tab="userinterface" class="tab">User Interface</div>
+          <div data-tab="andriod" class="tab">Andriod Dev.</div>
+          <div data-tab="datascience" class="tab">Data Science</div>
+        </div>
+      </div>
+      <!-- End Team Role Tabs -->
       <!-- Profile Card Start -->
       <section class="content-about">
-        <div data-aos="fade-left" class="profile">
+        <!-- Andrew McLaughlin -->
+        <div data-tab="lead" class="profile">
           <div class="info">
             <div class="thumbnail">
-              <img src="/img/andrew.png" alt="John Gibbons" />
+              <img src="/img/andrew.png" alt="Andrew McLaughlin" />
             </div>
             <span class="position">Team Lead / Full Stack</span>
             <h4 class="name">Andrew McLaughlin</h4>
@@ -79,7 +83,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-left" class="profile">
+        <!-- John Gibbons -->
+        <div data-tab="frontend" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/john.png" alt="John Gibbons" />
@@ -91,7 +96,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-right" class="profile">
+        <!-- Omar Salah-Eddine -->
+        <div data-tab="backend" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/omar.png" alt="Omar Salah-Eddine" />
@@ -106,7 +112,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-right" class="profile">
+        <!-- Taslim Yakub -->
+        <div data-tab="userinterface" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/taslim.png" alt="Taslim Yakub" />
@@ -124,7 +131,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-left" class=" profile">
+        <!-- Kim Duclos -->
+        <div data-tab="backend" class=" profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/kim.png" alt="Kim Duclos" />
@@ -136,7 +144,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-right" class="profile">
+        <!-- Mackenzie Weber -->
+        <div data-tab="userinterface" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/mac.png" alt="Mackenzie Weber" />
@@ -151,7 +160,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-left" class="profile">
+        <!-- Basil Havens -->
+        <div data-tab="andriod" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/basil.png" alt="Basil Havens" />
@@ -166,7 +176,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-left" class="profile">
+        <!-- Daniel Martin-Alarcon -->
+        <div data-tab="datascience" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/daniel.png" alt="Daniel Martin-Alarcon" />
@@ -181,7 +192,8 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-right" class="profile">
+        <!-- A Apte -->
+        <div data-tab="datascience" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/a.png" alt="A Apte" />
@@ -196,22 +208,27 @@
             ></a>
           </div>
         </div>
-        <div data-aos="fade-right" class="profile">
+        <!-- Derek Shing -->
+        <div data-tab="datascience" class="profile">
           <div class="info">
             <div class="thumbnail">
               <img src="/img/derek.png" alt="Derek Shing" />
             </div>
             <span class="position">Data Science</span>
             <h4 class="name">Derek Shing</h4>
-            <a class="contact"><i class="fab fa-instagram fa-3x"></i></a>
-            <a class="contact"><i class="fab fa-twitter-square fa-3x"></i></a>
-            <a class="contact"><i class="fab fa-github-square fa-3x"></i></a>
+            <a
+              class="contact"
+              href="https://github.com/simpson-says"
+              target="_blank"
+              ><i class="fab fa-github-square fa-3x"></i
+            ></a>
           </div>
         </div>
       </section>
-      <!-- Profile card end -->
+      <!-- End Profile Cards-->
     </div>
-    <!-- container -->
+    <!-- End Container -->
+    <!-- Footer -->
     <footer class="footer navContainer">
       <p>
         Created by
@@ -225,9 +242,8 @@
       </p>
       <p>&copy; 2019 Simpsons Says</p>
     </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <!-- End Footer -->
+    <!-- Tabs to Filter Out Roles -->
+    <script src="/components/tabs/tabs.js"></script>
   </body>
 </html>

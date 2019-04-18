@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqZPBQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwPIsWqZPBQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Raleway Black'), local('Raleway-Black'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwK4vWqZPBQ.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -204,7 +234,7 @@ img {
 }
 @media (max-width: 768px) {
   .mainNavigation .navContainer .logo {
-    width: 50%;
+    width: 70%;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -220,10 +250,11 @@ img {
   align-items: center;
   font-size: 1.6rem;
   font-weight: 500;
-  width: 40%;
+  width: 50%;
 }
 @media (max-width: 768px) {
   .mainNavigation .navContainer .nav {
+    width: 100%;
     margin-bottom: 2.5rem;
   }
 }
@@ -279,7 +310,8 @@ img {
   text-decoration: none;
 }
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #6fd0fe;
 }
 .footer i {
   color: #ffffff;
@@ -390,7 +422,6 @@ img {
   letter-spacing: 1.3px;
 }
 .home .text-content #andriodDownload {
-  font-family: 'Raleway', sans-serif;
   background: #fed817;
   color: #445048 !important;
   font-size: 1.6rem;
@@ -403,11 +434,12 @@ img {
   border-bottom: none !important;
 }
 .home .text-content #andriodDownload:hover {
-  color: #fed817 !important;
+  color: #fed817;
   background: #445048;
   cursor: pointer;
 }
 .home .text-content #andriodDownload i {
+  color: #ffffff;
   font-size: 3rem;
 }
 #background-wrap {
@@ -419,6 +451,26 @@ img {
   top: 0;
   z-index: -1;
   background: #6fd0fe;
+}
+#background-wrap .c1 {
+  animation: animateCloud 35s linear infinite;
+  transform: scale(0.65);
+}
+#background-wrap .c2 {
+  animation: animateCloud 20s linear infinite;
+  transform: scale(0.3);
+}
+#background-wrap .c3 {
+  animation: animateCloud 30s linear infinite;
+  transform: scale(0.5);
+}
+#background-wrap .c4 {
+  animation: animateCloud 18s linear infinite;
+  transform: scale(0.4);
+}
+#background-wrap .c5 {
+  animation: animateCloud 25s linear infinite;
+  transform: scale(0.55);
 }
 /* KEYFRAMES */
 @-webkit-keyframes animateCloud {
@@ -445,62 +497,10 @@ img {
     margin-left: 100%;
   }
 }
-/* ANIMATIONS */
-.x1 {
-  -webkit-animation: animateCloud 35s linear infinite;
-  -moz-animation: animateCloud 35s linear infinite;
-  animation: animateCloud 35s linear infinite;
-  -webkit-transform: scale(0.65);
-  -moz-transform: scale(0.65);
-  transform: scale(0.65);
-}
-.x2 {
-  -webkit-animation: animateCloud 20s linear infinite;
-  -moz-animation: animateCloud 20s linear infinite;
-  animation: animateCloud 20s linear infinite;
-  -webkit-transform: scale(0.3);
-  -moz-transform: scale(0.3);
-  transform: scale(0.3);
-}
-.x3 {
-  -webkit-animation: animateCloud 30s linear infinite;
-  -moz-animation: animateCloud 30s linear infinite;
-  animation: animateCloud 30s linear infinite;
-  -webkit-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  transform: scale(0.5);
-}
-.x4 {
-  -webkit-animation: animateCloud 18s linear infinite;
-  -moz-animation: animateCloud 18s linear infinite;
-  animation: animateCloud 18s linear infinite;
-  -webkit-transform: scale(0.4);
-  -moz-transform: scale(0.4);
-  transform: scale(0.4);
-}
-.x5 {
-  -webkit-animation: animateCloud 25s linear infinite;
-  -moz-animation: animateCloud 25s linear infinite;
-  animation: animateCloud 25s linear infinite;
-  -webkit-transform: scale(0.55);
-  -moz-transform: scale(0.55);
-  transform: scale(0.55);
-}
-/* OBJECTS */
 .cloud {
-  background: #fff;
-  background: -moz-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #f1f1f1));
-  background: -webkit-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: -o-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: -ms-linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1', GradientType=0);
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
+  background: #ffffff;
+  background: linear-gradient(top, #ffffff 5%, #f1f1f1 100%);
   border-radius: 100px;
-  -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
   height: 120px;
   position: relative;
@@ -508,14 +508,12 @@ img {
 }
 .cloud:after,
 .cloud:before {
-  background: #fff;
-  content: '';
+  background: #ffffff;
+  content: "";
   position: absolute;
-  z-indeX: -1;
+  z-index: -1;
 }
 .cloud:after {
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
   border-radius: 100px;
   height: 100px;
   left: 50px;
@@ -523,8 +521,6 @@ img {
   width: 100px;
 }
 .cloud:before {
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
   border-radius: 200px;
   width: 180px;
   height: 180px;
@@ -639,11 +635,11 @@ form {
   padding-bottom: 3em;
   border-radius: 0px;
   max-width: 400px;
-  justify-content: center;
-  border: 1px solid #e7e7e7;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
+  border: 1px solid #e7e7e7;
 }
 form:hover {
   border: none;
@@ -704,4 +700,61 @@ form input:focus {
     transform: scale(2.5);
     opacity: 0;
   }
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .tabs {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .tabs {
+    display: none;
+  }
+}
+.tabs .topics {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.tabs .topics .title {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.tabs .topics .tab {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  color: #445048;
+  background-color: none;
+  margin: 0 5px;
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tabs .topics .tab:hover {
+  text-decoration: none;
+  color: #445048;
+  background: #fed817;
+  border-radius: 4px;
+}
+.tabs .topics .active-tab {
+  background-color: #fed817;
+  color: #445048;
+  border-radius: 4px;
+  font-weight: 600;
 }

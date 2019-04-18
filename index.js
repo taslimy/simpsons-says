@@ -18,4 +18,3 @@ function changePhrase() {
   count < 8 ? count++ : (count = 0);
 }
 setInterval(changePhrase, 800);
-
