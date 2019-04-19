@@ -3,13 +3,13 @@
 <p>We're Creating mildly entertaining text-mining demos based on The Simpsons. To provide a fun and interactive platform for fans.</p>
 
 <h3>What does the APP do?</h3>
-* Simpsons Says is an Application is used to display popular phrases from the Popular TV show The Simpsons.
+- Simpsons Says is an Application is used to display popular phrases from the Popular TV show The Simpsons.
 
 <h3>Features</h3>
-* Being able to search for your favorite quotes via specfic characters.
-* You will also have the ability to generate random quotes from a character on The Simpsons.
-* Have the ability to save your favorite quotes.
-* Have fun and generate some funny quotes to give you a giggle.
+- Being able to search for your favorite quotes via specfic characters.
+- You will also have the ability to generate random quotes from a character on The Simpsons.
+- Have the ability to save your favorite quotes.
+- Have fun and generate some funny quotes to give you a giggle.
 
 ***
 
