@@ -1,6 +1,6 @@
 <p><h2>Simpsons Says - Marketing Website - <a href="https://taslimy.github.io/marketing">Demo</a>.</h2></p>
 
-<p >We're Creating mildly entertaining text-mining demos based on The Simpsons. To provide a fun and interactive platform for fans.</p>
+<p>We're Creating mildly entertaining text-mining demos based on The Simpsons. To provide a fun and interactive platform for fans.</p>
 
 <h3>What does the APP do?</h3>
 * Simpsons Says is an Application is used to display popular phrases from the Popular TV show The Simpsons.
