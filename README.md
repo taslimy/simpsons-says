@@ -11,10 +11,8 @@
 <p>- Have the ability to save your favorite quotes.</p>
 <p>- Have fun and generate some funny quotes to give you a giggle.</p>
 
-***
-
 <h2>Marketing Page Preview</h2>
-<p align="center"> <img src="https://raw.githubusercontent.com/simpson* says/buildweek3-simpsons-says-tas/master/design-file/sample-design.png" /> </p>
+<p align="center"> <img src="https://raw.github.com/simpson-says/buildweek3-simpsons-says-tas/master/design-file/sample-design.png" /> </p>
 
 <h2>About Us Page</h2>
 <p align="center"> <img src="https://raw.githubusercontent.com/simpson-says/buildweek3-simpsons-says-tas/master/design-file/about-design.jpg" /> </p>
