@@ -1,4 +1,4 @@
-<p><h2>Simpsons Says - Marketing Website - <a href="https://taslimy.github.io/marketing">Demo</a>.</h2></p>
+<p><h2>Simpsons Says - Marketing Website - <a href="https://taslimy.github.io/simpsons-says/">Demo</a>.</h2></p>
 
 <p>We're Creating mildly entertaining text-mining demos based on The Simpsons. To provide a fun and interactive platform for fans.</p>
 
